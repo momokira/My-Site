@@ -1,0 +1,195 @@
+body, html {
+    height: 100vh;
+}
+
+body {
+    margin: 0px;
+}
+
+.Title {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.list {
+    list-style: none;
+    padding: 0px;
+}
+
+.heroes {
+    padding-top: 6.25rem;
+    background-color: #F1F0EF;
+    border-bottom-left-radius: 6.25rem;
+    border-bottom-right-radius: 6.25rem;
+}
+
+.heroes > .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.heroes > .container > img {
+    height: 12.5rem;
+    width: 12.5rem;
+    border-radius: 7.5rem;
+    border: 0.625rem solid white;
+}
+
+.heroes > .container > .main-title {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 3.125rem;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.heroes > .container > .sub-title {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.objective > .container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.objective > .container > .Title {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.objective > .container > .Descriptions {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.education {
+    padding-bottom: 2.5rem;
+}
+
+.education > .container {
+    display: flex;
+    justify-content: center;
+}
+
+.education > .container > .Descriptions{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    margin-right: 3.75rem;
+    list-style: none;
+}
+
+#achieve-list > li {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+
+.showcase {
+    padding-top: 1.25rem;
+    padding-bottom: 3.125rem;
+    text-align: center;
+    background-color: #F1F0EF;
+}
+
+.showcase > .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 1.25rem;
+}
+
+.img-items {
+    margin-top: 1.25rem;
+    height: 23.75rem;
+    width: 37.5rem;
+}
+
+#img1 {
+    margin-top: 2.5rem;
+}
+
+.about {
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.about > .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about >.container > .Descriptions {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    line-height: 2rem;
+    margin-top: 0;
+}
+
+.about >.container > .Descriptions > p {
+    margin-top: 0px;
+}
+
+.contact > .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #F1F0EF;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    
+}
+
+.contact > .container > a {
+    margin-left: 1rem;
+}
+
+.serialize > .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #F1F0EF;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    
+}
